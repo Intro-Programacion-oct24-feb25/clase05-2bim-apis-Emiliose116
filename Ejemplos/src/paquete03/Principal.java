@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package paquete03;
-
+//importamos todo lo quye necesitamos
+//ejemplo:
+//import nommbredepaquete.Clase
 import paquete04.OperadorUno;
 import paquete04.OperadorDos;
 import paquete05.OperadorTres;
@@ -24,5 +26,9 @@ public class Principal {
         int multiplicacion = OperadorTres.obtenerMultiplicacion(valorA, 
                                                                 valorB);
         ImprimirMensaje.imprimirMensaje(valorA, valorB, suma, multiplicacion);
+        //NombreDeLaClase.nombreDelMetodo()
+        /*Estoy llamando a un metod del paquete06 el cual me permite presnetar 
+        los datos, es importante decir que previamente tenemos que importar las 
+        clases donde se encuentran los, metodos que necesitamos*/
     }
 }
